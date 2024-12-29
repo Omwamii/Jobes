@@ -41,6 +41,18 @@ body {
     font-size: 20px;
   }
 
+  @media(min-width: 390px) and (max-width: 520px) {
+    .video-text {
+      font-size: 15px;
+    }
+  }
+
+  @media(max-width: 389px) {
+    .video-text{
+      font-size: 12px;
+    }
+  }
+
   .header {
     background: linear-gradient(to bottom, #b6e5d8, #f2f9f6);
     color: #005c47;
@@ -128,7 +140,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 20px);
+    width: calc(50% - 12px);
   }
   
   .product-item h3 {
@@ -257,4 +269,25 @@ body {
     background: radial-gradient(circle, #fdf497, #fdf497, #fd5949, #d6249f, #285aeb); /* Instagram gradient */
     color: #fff; /* White icon color */
   }
-  
+
+  .location {
+    padding-left: 5px;
+    max-width: 300px;
+  }
+
+  .location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .location-link:visited {
+    color: inherit;
+  }
+
+  .cp-container {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
