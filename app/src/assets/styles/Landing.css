@@ -83,10 +83,12 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-size: 1rem;
+    transition: .3s all ease;
  }
   
   .cta-button:hover {
     background: #00796b;
+    transform: scale(1.05);
   }
   
   /* About Section */
@@ -187,6 +189,17 @@ body {
     margin-bottom: 10px;
   }
   
+
+  @media(max-width: 489px) {
+    .testimonial-item p {
+      font-size: 12px;
+    }
+
+    .testimonial-item {
+      padding: 10px;
+    }
+  }
+
   .testimonial-item span {
     color: #00796b;
     font-weight: bold;
@@ -216,6 +229,7 @@ body {
   .cta .cta-button {
     background: #005c47;
   }
+
   
   /* Footer Section */
   .footer {

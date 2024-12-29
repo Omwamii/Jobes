@@ -26,11 +26,20 @@ const LandingPage = () => {
   ];
 
   const handleBeforeChange = (currentSlide, nextSlide) => {
+    console.log(currentSlide)
     const videoElements = document.querySelectorAll(".videoTag");
     if (videoElements[currentSlide]) {
       videoElements[currentSlide].currentTime = 0;
       // videoElements[currentSlide].pause();
     }
+  }
+
+  const handleVideoEnd = (index) => {
+    console.log('video has ended')
+    const videoElements = document.querySelectorAll(".videoTag");
+    const video = videoElements[index];
+    video.currentTime = 0;
+    video.play()
   }
 
   const testimonialSettings = {
@@ -51,7 +60,7 @@ const LandingPage = () => {
     slidesToScroll: 1,
     autoplay: true,
     // autoplay: false, // Autoplay disabled since we trigger manually
-    autoplaySpeed: 5000,
+    autoplaySpeed: 6000,
     arrows: false,
     beforeChange: handleBeforeChange,
   }
@@ -78,6 +87,7 @@ const LandingPage = () => {
                 className="videoTag"
                 preload="auto"
                 // onEnded={() => handleVideoEnd(index)}
+                loop
               >
                 <source src={video.src} type="video/mp4" />
               </video>
@@ -140,7 +150,7 @@ const LandingPage = () => {
         <div className="container">
           <h2>Ready to Order?</h2>
           <p>Contact us today to place your order and enjoy free delivery within Eldoret!</p>
-          <a href="tel:yourphonenumber" className="cta-button">Contact us</a>
+          <a href="tel:yourphonenumber" className="cta-button">Call us</a>
         </div>
       </section>
 
