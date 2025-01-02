@@ -198,6 +198,7 @@ import React from "react";
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from "react-slick";
+import Typical from "react-typical";
 
 import KidsDiaperImage from "../assets/images/Kids diapers collage design.png";
 import AdultDiaperImage from "../assets/images/Adult diapers collage design.png";
@@ -257,7 +258,12 @@ const LandingPage = () => {
       {/* Header Section */}
       <header className="header">
         <div className="container">
-          <h1>Jobes Solutions</h1>
+          <Typical
+            steps={["Jobes Solutions", 2000]} // Text and duration in milliseconds
+            loop={1} // Number of loops
+            wrapper="h1" // Element wrapper
+          />
+          {/* <h1>Jobes Solutions</h1> */}
           {/* <p>Your trusted wholesale and retail diapers, wipes and serviettes supply & delivery service</p> */}
           <p>Your Trusted Partner in wholesale and retail diaper supply</p>
           <a href="#products" className="cta-button">Shop Now</a>
@@ -321,7 +327,7 @@ const LandingPage = () => {
         <div className="container">
           <h2>Ready to Order?</h2>
           <p>Contact us today to place your order and enjoy free delivery within Eldoret!</p>
-          <a href="tel:yourphonenumber" className="cta-button">Call us</a>
+          <a href="tel:yourphonenumber" className="cta-button">Call us now</a>
         </div>
       </section>
 
