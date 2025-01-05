@@ -26,11 +26,11 @@ const LandingPage = () => {
       image: MaternityPadsImage,
     },
     {
-      name: "Diaper Wipes",
+      name: "Baby Wipes",
       image: BabyWipesImage,
     },
     {
-      name: "Kids & Adult Wipes",
+      name: "Adult Wipes",
       image: AdultWipesImage,
     },
     {
@@ -50,7 +50,7 @@ const LandingPage = () => {
   };
 
   const handleOrderClick = (productName) => {
-    const whatsappURL = `https://wa.me/254722379630?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/254721400627?text=${encodeURIComponent(
       `Hi, I want to make an order for ${productName}.`
     )}`;
     window.open(whatsappURL, "_blank");
@@ -129,7 +129,7 @@ const LandingPage = () => {
         <div className="container">
           <h2>Ready to Order?</h2>
           <p>Contact us today to place your order and enjoy free delivery within Eldoret!</p>
-          <a href="tel:yourphonenumber" className="cta-button">Call us now</a>
+          <a href="tel:+254721400627" className="cta-button">Call us now</a>
         </div>
       </section>
 
@@ -148,16 +148,16 @@ const LandingPage = () => {
             <p className="location">Eldo city business center - Eldoret</p>
           </div>
           <div className="social-icons">
-            <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/254721400627" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-whatsapp"></i>
             </a>
-            <a href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer">
+            <a href="https://web.facebook.com/profile.php?id=61571391310199" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-facebook"></i>
             </a>
-            <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
-            </a>
-            <a href="tel:yourphonenumber">
+            </a> */}
+            <a href="tel:+254721400627">
               <i className="fas fa-phone"></i>
             </a>
           </div>
