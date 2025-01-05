@@ -14,7 +14,7 @@ import ServiettesImage from "../assets/images/Serviettes collage design.png";
 const LandingPage = () => {
   const products = [
     {
-      name: "Children's Diapers",
+      name: "Kids' Diapers",
       image: KidsDiaperImage,
     },
     {
