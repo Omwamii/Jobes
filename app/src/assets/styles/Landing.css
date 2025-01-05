@@ -291,24 +291,24 @@ body {
   
   .social-icons a {
     text-decoration: none;
-    color: #fff; /* Default icon color */
+    color: #fff;
     background-color: #4CAF50; /* Background for the icons (e.g., green) */
-    border-radius: 50%; /* Circular shape */
+    border-radius: 50%;
     width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease; /* Smooth hover effect */
+    transition: all 0.3s ease;
   }
   
   .social-icons a:hover {
-    background-color: #34a853; /* Darker shade for hover */
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    background-color: #34a853;
+    transform: scale(1.1);
   }
   
   .social-icons i {
-    font-size: 20px; /* Icon size */
+    font-size: 20px;
   }
 
   /* Facebook Icon */
@@ -317,9 +317,9 @@ body {
   }
   
   /* Instagram Icon */
-  .social-icons a:nth-child(3) {
+  .social-icons a:nth-child(4) {
     background: radial-gradient(circle, #fdf497, #fdf497, #fd5949, #d6249f, #285aeb); /* Instagram gradient */
-    color: #fff; /* White icon color */
+    color: #fff;
   }
 
   .location {

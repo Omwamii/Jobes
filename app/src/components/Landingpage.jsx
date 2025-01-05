@@ -154,12 +154,12 @@ const LandingPage = () => {
             <a href="https://web.facebook.com/profile.php?id=61571391310199" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-facebook"></i>
             </a>
-            {/* <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-instagram"></i>
-            </a> */}
             <a href="tel:+254721400627">
               <i className="fas fa-phone"></i>
             </a>
+            {/* <a href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a> */}
           </div>
           <div className="cp-container">
             <p>&copy; 2024 Jobes Solutions. All rights reserved.</p>
