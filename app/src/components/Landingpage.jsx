@@ -2,6 +2,7 @@ import React from "react";
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from "react-slick";
+import LazyLoad from "react-lazyload";
 
 import KidsDiaperImage from "../assets/images/Kids diapers collage design.png";
 import AdultDiaperImage from "../assets/images/Adult diapers collage design.png";
