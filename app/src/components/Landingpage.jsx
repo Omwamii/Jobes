@@ -163,7 +163,7 @@ const LandingPage = () => {
             </a> */}
           </div>
           <div className="cp-container">
-            <p>&copy; 2024 Jobes Solutions. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Jobes Solutions. All rights reserved.</p>
           </div>
         </div>
       </footer>
